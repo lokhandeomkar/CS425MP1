@@ -83,6 +83,11 @@ public class GrepClient {
 	}
 }
 
+/*
+Sends the grep command to the server via Socket (client socket), processes the result and 
+returns an ArrayList<String> with the results.  
+*/
+
 class GrepClientMultiThread implements Callable<ArrayList<String>> {
 	private String cmd, hostname;
 	private int ports;
