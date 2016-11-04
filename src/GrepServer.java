@@ -1,3 +1,10 @@
+/*
+Listens for connection from client, gets the command, calls the CLIwrapper 
+to execute the grep command and returns the results to the client. 
+ServerSocket used. 
+*/
+
+
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
