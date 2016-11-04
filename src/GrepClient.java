@@ -1,3 +1,14 @@
+/*
+An Executor that provides methods to manage termination and methods that can 
+produce a Future (represents the result of an asynchronous computation) 
+for tracking progress of one or more asynchronous tasks.
+
+ThreadPoolExecutor : An ExecutorService that executes each submitted task 
+using one of possibly several pooled threads, normally configured using Executors
+factory methods.
+*/
+
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
