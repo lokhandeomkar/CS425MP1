@@ -17,6 +17,7 @@ public class GrepServer implements Runnable {
 		this.ports = ports;
 	}
 	@Override
+	// for testing
 	public void run(){
 		String fileName = this.logfilename;
 		int nlines=0;
