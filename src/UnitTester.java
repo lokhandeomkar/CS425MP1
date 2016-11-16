@@ -1,5 +1,5 @@
 // @BeforeClass: The code that runs before the entire test fixture. 
-// Used When a numner of tests share the same setup code.
+// Used When a number of tests share the same setup code.
 
 
 import static org.junit.Assert.assertEquals;
