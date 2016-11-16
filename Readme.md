@@ -4,7 +4,7 @@ First start a server on the relevant computers, and then start the client as fol
 
 2. GrepServer.java: To run it type 'java GrepServer port logfiletoquery'
 
-3. GrepServer.client: To run it type 'java GrepClient serveripfile patterntosearch resultsfile'
+3. GrepClient.java: To run it type 'java GrepClient serveripfile patterntosearch resultsfile'
 serveripfile contains servers and their ips, one server per line. The client tries to connect to all the servers in this file.
 
 UnitTests were conducted using JUnit. UnitTester.java creates the required logfiles in the 'src/test' directory and then performs the following tests:
